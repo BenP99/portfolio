@@ -1,0 +1,373 @@
+/* Background of Whole Page */
+#SITE_BACKGROUND{
+	position: absolute;
+	top: 0px;
+	height: 1541px;
+	width: 1903px;
+}
+
+#SITE_BACKGROUND_current_zo2en_desktop_bg{
+	top:0;
+	height:100%;
+	width:100%;
+	background-color:rgba(221, 221, 221, 1);
+	display:;
+	position:absolute;
+}
+
+#SITE_BACKGROUND_currentImage_zo2en_desktop_bg{
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#SITE_BACKGROUND_currentOverlay_zo2en_desktop_bg{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+/* Whole Page */
+#SITE_ROOT{
+	width:980px;
+	padding-bottom:40px;
+}
+
+#masterPage{
+	width: 980px;
+	position: static;
+	top: 0px;
+	height: 941px;
+}
+
+/* Navigation Bar */
+#SITE_HEADER{
+	width: 980px;
+	position: fixed;
+	z-index: 50;
+	top: 0px;
+	height: 78px;
+	left: 0px;
+}
+
+#SITE_HEADERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#DrpDwnMn0-jgk{
+	left: 128px;
+	width: 852px;
+	position: absolute;
+	top: 25px;
+	height: 30px;
+}
+
+#DrpDwnMn0-jgkitemsContainer{
+	text-align:right;
+}
+
+/* Home Nav Button */
+#DrpDwnMn0-jgk0{
+	display: inherit;
+	color: grey;
+	width: 66px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk0bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk0label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Summary of Charity Nav Button */
+#DrpDwnMn0-jgk1{
+	display: inherit;
+	color: grey;
+	width: 149px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk1bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk1label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Trustees and Contact Info Nav Button */
+#DrpDwnMn0-jgk2{
+	display: inherit;
+	color: grey;
+	width: 183px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk2bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk2label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* News Nav Button */
+#DrpDwnMn0-jgk3{
+	display: inherit;
+	color: grey;
+	width: 64px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk3bg{
+	text-align:center;"
+}
+
+#DrpDwnMn0-jgk3label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Application Form Nav Button */
+#DrpDwnMn0-jgk4{
+	display: inherit;
+	color: grey;
+	width: 132px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk4bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk4label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* FAQ Nav Button */
+#DrpDwnMn0-jgk5{
+	display: inherit;
+	color: grey;
+	width: 54px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk5bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk5label{
+	text-align: center;
+	line-height: 30px;
+}
+
+#DrpDwnMn0-jgkdropWrapper{
+	visibility: hidden;
+	left: auto;
+	right: 250px;
+	bottom: auto;
+}
+
+#DrpDwnMn0-jgkmoreContainer{
+	visibility: hidden;
+	left: auto;
+	right: 250px;
+}
+
+/* Footer */
+#SITE_FOOTER{
+	width: 980px;
+	position: absolute;
+	left: 0px;
+	height: 86px;
+	bottom: auto;
+	top: 1445px;
+}
+
+#SITE_FOOTERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#i6buxfuz{
+	left: -64px;
+	width: 568px;
+	position: absolute;
+	top: 38px;
+}
+
+#footer{
+	text-align:center;
+	color: #0F4C85;
+}
+
+/* Content for the Whole Page */
+#PAGES_CONTAINER{
+	width: 980px;
+	position: absolute;
+	top: 78px;
+	height: 976px; 
+	left: 0px;
+}
+
+#PAGES_CONTAINERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#SITE_PAGES{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 976px;
+}
+
+#zo2en{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 976px;
+}
+
+/* Complete the Application Form Title */
+#comp-izzh04wn{
+	left: 20px;
+	width: 682px;
+	position: absolute;
+	visibility: inherit;
+	top: 43px;
+}
+
+#appformtitle{
+	font-weight:bold;
+}
+
+/* The Application Form */
+#comp-j09gn03f{
+	left: -408px;
+	width: 300px;
+	position: absolute;
+	top: 103px;
+}
+
+/* Application Form Style */
+													@import "http://fonts.googleapis.com/css?family=Droid+Serif";  /* This Line is to import Google font style */
+													#progressbar{
+													margin:10px;
+													padding:10px;
+													font-size:18px;
+													width: 800px;
+													}
+													#active1{
+													color:#0F4C85;
+													}
+													fieldset{
+													display:none;
+													padding:20px;
+													border-radius:5px;
+													box-shadow:3px 3px 25px 1px gray;
+													}
+													#first{
+													display:block;
+													width:1800px;
+													padding:20px;
+													border-radius:5px;
+													box-shadow:3px 3px 25px 1px gray;
+													}
+													#second, #third{
+													width:1800px;
+													padding:20px;
+													border-radius:5px;
+													box-shadow:3px 3px 25px 1px gray;
+													}
+													input[type=text],select{
+													width:400px;
+													margin:10px 0;
+													height:40px;
+													padding:5px;
+													border:3px solid #377DBD;
+													border-radius:4px;
+													}
+													textarea{
+													margin:10px 0;
+													padding:5px;
+													border:3px solid #377DBD;
+													border-radius:4px;
+													}
+													input[type=submit],input[type=button]{
+													width:120px;
+													margin:15px 25px;
+													padding:5px;
+													height:40px;
+													background-color:#0F4C85;
+													border:none;
+													border-radius:4px;
+													color:#ffffff;
+													font-family:'Droid Serif',serif;
+													}
+													.regform h2{
+													text-align:center;
+													font-family:'Droid Serif',sans-serif;
+													font-size: 20px;
+													color:#0F4C85;
+													}
+													.regform p{
+													text-align:center;
+													font-family:'Droid Serif',sans-serif;
+													}
+													.regform li{
+													margin-right:52px;
+													display:inline;
+													color:#c1c5cc;
+													font-family:'Droid Serif',sans-serif;
+													}
+													.regform label{
+													font-family:'Droid Serif',sans-serif;
+													font-size: 15px;
+													color:#0F4C85;
+													}
+													.subtitle{
+													font-size: 15px;
+													font-family:'Droid Serif',sans-serif;
+													color:#0F4C85;
+													}
+													input[type="radio"]:checked+label {
+													color:#377DBD;
+													background-color:#C0C0C0;
+													padding: 2px;
+													}
+
+
+
+
+

@@ -1,0 +1,1051 @@
+/* Background of Whole Page */
+#SITE_BACKGROUND{
+	position: absolute;
+	top: 0px;
+	height: 3702px;
+	width: 1903px;
+}
+
+#SITE_BACKGROUND_current_c1537_izpirjxp_bg{
+	top:0;
+	height:100%;
+	width:100%;
+	background-color:rgba(221, 221, 221, 1);
+	display:;
+	position:absolute;
+}
+
+#SITE_BACKGROUND_currentImage_c1537_izpirjxp_bg{
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#SITE_BACKGROUND_currentOverlay_c1537_izpirjxp_bg{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+/* Whole Page */
+#SITE_ROOT{
+	width:980px;
+	padding-bottom:40px;
+}
+
+#masterPage{
+	width: 980px;
+	top: 0px;
+	height: 3402px;
+}
+
+/* Navigation Bar */
+#SITE_HEADER{
+	width: 980px;
+	position: fixed;
+	z-index: 50;
+	top: 0px;
+	height: 78px;
+	left: 0px;
+}
+
+#SITE_HEADERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#DrpDwnMn0-jgk{
+	left: 128px;
+	width: 852px;
+	position: absolute;
+	top: 25px;
+	height: 30px;
+}
+
+#DrpDwnMn0-jgkitemsContainer{
+	text-align:right;
+}
+
+/* Home Nav Button */
+#DrpDwnMn0-jgk0{
+	display: inherit;
+	color: grey;
+	width: 66px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk0bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk0label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Summary of Charity Nav Button */
+#DrpDwnMn0-jgk1{
+	display: inherit;
+	color: grey;
+	width: 149px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk1bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk1label{
+	text-align: center;
+	line-height: 30px;
+}
+
+#summarypic{
+	width: 520px;
+	left: 55px;
+	top: 60px;
+	position: relative;
+}
+
+/* Trustees and Contact Info Nav Button */
+#DrpDwnMn0-jgk2{
+	display: inherit;
+	color: grey;
+	width: 183px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk2bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk2label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* News Nav Button */
+#DrpDwnMn0-jgk3{
+	display: inherit;
+	color: grey;
+	width: 64px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk3bg{
+	text-align:center;"
+}
+
+#DrpDwnMn0-jgk3label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Application Form Nav Button */
+#DrpDwnMn0-jgk4{
+	display: inherit;
+	color: grey;
+	width: 132px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk4bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk4label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* FAQ Nav Button */
+#DrpDwnMn0-jgk5{
+	display: inherit;
+	color: grey;
+	width: 54px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk5bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk5label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Footer */
+#SITE_FOOTER{
+	width: 980px;
+	position: absolute;
+	height: 86px;
+	bottom: auto;
+	top: 3516px;
+}
+
+#SITE_FOOTERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+.s3{
+	left: -64px;
+	width: 568px;
+	position: absolute;
+	top: 38px;
+}
+
+#footer{
+	text-align:center;
+	color: #0F4C85;
+}
+
+/* Content for the Whole Page */
+#PAGES_CONTAINER{
+	width: 980px;
+	position: absolute;
+	top: 78px;
+	height: 3437px;
+	left: 0px;
+}
+
+#PAGES_CONTAINERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#SITE_PAGES{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 3437px;
+}
+
+#c1537{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 3437px;
+}
+
+#comp-izpjkqfz{
+	left: -265px;
+	width: 632px;
+	position: absolute;
+	top: 656px;
+	height: 507px;
+}
+
+/* Latest News Page */
+#comp-ifwfibx7{
+	width: 980px;
+	position: absolute;
+	top: 1899px;
+	height: 718px;
+	left: 0px;
+}
+
+#comp-ifwfibx7balata{
+	position: absolute;
+	top: 0px;
+	width: calc(100vw - 0px - 0px);
+	height: 100%;
+	pointer-events: auto; 
+	bottom: 0px;
+	right: 300px;
+	overflow: hidden;
+	clip: rect(0px, 1903px, 718px, 0px);
+}
+
+#comp-ifwfibx7balatabgcolor{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#comp-ifwfibx7balatabgcoloroverlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color:transparent;
+}
+
+#mediairc1npsu1{
+	position: absolute;
+	right:-80px;
+	width: 980px;
+	top: 0px;
+	height: 718px;
+}
+
+#mediairc1npsu1balata{
+	position: absolute;
+	top: 0px;
+	height: 100%; pointer-events: auto;
+	left: calc(((100vw - 0px - 0px) * 1 - 980px) * -0.5 - 1px);
+	bottom: 0px;
+	overflow: hidden;
+	clip: rect(0px, 1904px, 718px, 0px);
+}
+
+#mediairc1npsu1balatabgcolor{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#mediairc1npsu1balatabgcoloroverlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color:rgba(221, 221, 221, 1);
+}
+
+#comp-izpjpa1f{
+	left: -88px;
+	width: 947px;
+	position: absolute;
+	top: 107px;
+	height: 567px;
+}
+
+/* More News Button */
+#comp-izpjs69i{
+	left: 807px;
+	position: absolute;
+	top: 501px;
+	height: 32px;
+	min-height: 20px;
+	width: 108px;
+}
+
+/* Content on Latest News Page */
+#comp-izpj199o{
+	left: 128px;
+	width: 304px;
+	position: absolute;
+	top: 24px;
+}
+
+#comp-j09g33qo{
+	left: 122px;
+	width: 304px;
+	position: absolute;
+	top: 60px;
+}
+
+#comp-j09g3grd{
+	left: 400px;
+	width: 304px;
+	position: absolute;
+	top: 60px;
+}
+
+#comp-ifwf47tv{
+	left: -80px;
+	width: 980px;
+	position: absolute;
+	visibility: inherit;
+	top: 49px;
+}
+
+#newstitle{
+	text-align:center;
+}
+
+/* Trustees Page */
+#comp-ifsa1606{
+	width: 980px;
+	position: absolute;
+	top: 1197px;
+	height: 702px;
+	left: 0px;
+}
+
+#comp-ifsa1606balata{
+	position: absolute;
+	top: 0px;
+	width: calc(100vw - 0px - 0px);
+	height: 100%; pointer-events: auto;
+	bottom: 0px;
+	left: calc(490px - (100vw - 0px - 0px) / 2);
+	right: calc(490px + (100vw - 0px - 0px) / 2);
+	overflow: hidden;
+	clip: rect(0px, 1903px, 702px, 0px);
+}
+
+#comp-ifsa1606balatabgcolor{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#comp-ifsa1606balatabgcoloroverlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color:transparent;
+}
+
+#mediairc1npsv11{
+	position: absolute;
+	left: calc((100vw - 0px - 0px) * 0.5 + (980px - (100vw - 0px - 0px)) / 2 + 0px + -490px);
+	width: 980px;
+	top: 0px;
+	height: 702px;
+}
+
+#mediairc1npsv11balata{
+	position: absolute;
+	top: 0px;
+	width: calc((100vw - 0px - 0px) * 1 + 1px);
+	height: 100%;
+	pointer-events: auto; 
+	left: calc(((100vw - 0px - 0px) * 1 - 980px) * -0.5 - 1px);
+	bottom: 0px;
+	overflow: hidden;
+	clip: rect(0px, 1904px, 702px, 0px);
+}
+
+#mediairc1npsv11balatabgcolor{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#mediairc1npsv11balatabgcoloroverlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color:rgba(221, 221, 221, 1);
+}
+
+#mediairc1npsv11inlineContent{
+	position:absolute;
+	width:980px;
+	top:16px;
+	bottom:0;
+	left:calc((100% - 980px) * 0.5);
+}
+
+/* Title for Trustees Page */
+#idskfcfs{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	visibility: inherit;
+	top: 33px;
+}
+
+#trusteetitle{
+	text-align:center;
+}
+
+#comp-j09h2v93{
+	left: 436px;
+	position: absolute;
+	top: 560px;
+	height: 32px;
+	min-height: 20px;
+	width: 108px;
+}
+
+/* David Pridmore Trustee */
+#comp-j0te4j1s{
+	position: absolute;
+	width: 179px;
+	height: 265px;
+	top: 265px;
+	left: 400px;
+}
+
+#comp-j0tdm7la{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 179px;
+	height: 265px;
+}
+
+#comp-j0tdm7lalink{
+	width: 175px;
+	height: 231px;
+}
+
+#comp-j0tdm7laimg{
+	position: relative;
+	width: 175px;
+	height: 231px;
+}
+
+#comp-j0tdm7laimgimage{
+	width: 175px;
+	height: 231px;
+	object-fit: cover;
+}
+
+/* David Pridmore Trustee Text */
+#comp-j0te0575{
+	width: 169px;
+	height: 60px;
+	position: absolute;
+	background-color: #0F4C85;
+	visibility: inherit;
+	left: 3px;
+	top: 230px;
+}
+
+#davidtitle{
+	text-align:center;
+}
+
+#davidspan{
+	text-shadow:rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+/* Colin Steed Trustee */
+#comp-j0te4obs{
+	position: absolute;
+	width: 177px;
+	height: 265px;
+	top: 83px;
+	left: 702px;
+}
+
+#comp-j0tdm7la1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 177px;
+	height: 265px;
+}
+
+#comp-j0tdm7la1link{
+	width: 173px;
+	height: 231px;
+}
+
+#comp-j0tdm7la1img{
+	position: relative;
+	width: 173px;
+	height: 231px;
+}
+
+#comp-j0tdm7la1imgimage{
+	width: 173px;
+	height: 231px;
+	object-fit: cover;
+}
+
+/* Colin Steed Trustee Text */
+#comp-j0te0f42{
+	width: 158px;
+	height: 60px;
+	position: absolute;
+	background-color: #0F4C85;
+	visibility: inherit;
+	left: 7px;
+	top: 230px;
+}
+
+#colintitle{
+	text-align:center;
+}
+
+#colinspan{
+	text-shadow:rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px,rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+/* Brian Lawson Trustee */
+#comp-j0te4r00{
+	position: absolute;
+	width: 179px;
+	height: 266px;
+	top: 371px;
+	left: 698px;
+}
+
+#comp-j0tdm7ht{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 179px;
+	height: 266px;
+}
+
+#comp-j0tdm7htlink{
+	width: 175px;
+	height: 232px;
+}
+
+#comp-j0tdm7htimg{
+	position: relative;
+	width: 175px;
+	height: 232px;
+}
+
+#comp-j0tdm7htimgimage{
+	width: 175px;
+	height: 232px;
+	object-fit: cover;
+}
+
+/* Brian Lawson Trustee Text */
+#comp-j0te0kgh{
+	width: 149px;
+	height: 60px;
+	position: absolute;
+	background-color: #0F4C85;
+	visibility: inherit;
+	left: 12px;
+	top: 232px;
+}
+
+#briantitle{
+	text-align:center;
+}
+
+#brianspan{
+	text-shadow:rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px,rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+/* John Ware Trustee */
+#comp-j0te4u1j{
+	position: absolute;
+	width: 178px;
+	height: 266px;
+	top: 371px;
+	left: 103px;
+}
+
+#comp-j0tdlble{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 178px;
+	height: 266px;
+}
+
+#comp-j0tdlblelink{
+	width: 174px;
+	height: 232px;
+}
+
+#comp-j0tdlbleimg{
+	position: relative;
+	width: 174px;
+	height: 232px;
+}
+
+#comp-j0tdlbleimgimage{
+	width: 174px;
+	height: 232px;
+	object-fit: cover;
+}
+
+/* John Ware Trustee Text */
+#comp-j0te14pc{
+	width: 139px;
+	height: 60px;
+	position: absolute;
+	background-color: #0F4C85;
+	visibility: inherit;
+	left: 19px;
+	top: 232px;
+}
+
+#johntitle{
+	text-align:center;
+}
+
+#johnspan{
+	text-shadow:rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px,rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+/* Barry Watson Trustee */
+#comp-j0te4wz4{
+	position: absolute;
+	width: 177px;
+	height: 266px;
+	top: 83px;
+	left: 103px;
+}
+
+#comp-j0tdkhz3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 177px;
+	height: 266px;
+}
+
+#comp-j0tdkhz3link{
+	width: 173px;
+	height: 232px;
+}
+
+#comp-j0tdkhz3img{
+	position: relative;
+	width: 173px;
+	height: 232px;
+}
+
+#comp-j0tdkhz3imgimage{
+	width: 173px;
+	height: 232px;
+	object-fit: cover;
+}
+
+/* Barry Watson Trustee Text */
+#comp-j0tdxtky{
+	width: 149px;
+	height: 58px;
+	position: absolute;
+	background-color: #0F4C85;
+	visibility: inherit;
+	left: 12px;
+	top: 232px;
+}
+
+#barrytitle{
+	text-align:center;
+}
+
+#barryspan{
+	text-shadow:rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px,rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+}
+
+/* Back to Top Button */
+#idskjt08{
+	left: 0px;
+	position: absolute;
+	top: 640px;
+	height: 20px;
+	width: 0px;
+}
+
+#idskkw5e{
+	left: 0px;
+	position: absolute;
+	top: 1197px;
+	height: 20px;
+	width: 0px;
+}
+
+#comp-if6w0dpo{
+	width: 980px;
+	position: absolute;
+	top: 3372px;
+	height: 65px;
+	left: 0px;
+}
+
+#comp-if6w0dpobalata{
+	position: absolute;
+	top: 0px;
+	width: calc(100vw - 0px - 0px);
+	height: 100%; pointer-events: auto;
+	bottom: 0px;left: calc(490px - (100vw - 0px - 0px) / 2);
+	right: calc(490px + (100vw - 0px - 0px) / 2);
+	overflow: hidden;
+	clip: rect(0px, 1903px, 65px, 0px);
+}
+
+#comp-if6w0dpobalatabgcolor{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#comp-if6w0dpobalatabgcoloroverlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color:transparent;
+}
+
+#mediairc1npsw10{
+	position: absolute;
+	left: calc((100vw - 0px - 0px) * 0.5 + (980px - (100vw - 0px - 0px)) / 2 + 0px + -490px);
+	width: 980px;
+	top: 0px;
+	height: 65px;
+}
+
+/* Grey Banner for Back to Top Button */
+#mediairc1npsw10balata{
+	position: absolute;
+	top: 0px;
+	width: calc((100vw - 0px - 0px) * 1 + 1px);
+	height: 100%;
+	pointer-events: auto;
+	left: calc(((100vw - 0px - 0px) * 1 - 980px) * -0.5 - 1px);
+	bottom: 0px;
+	overflow: hidden;
+	clip: rect(0px, 1904px, 65px, 0px);
+}
+
+#mediairc1npsw10balatabgcolor{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#mediairc1npsw10balatabgcoloroverlay{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background-color:rgba(160, 160, 160, 1);
+}
+
+#mediairc1npsw10inlineContent{
+	position:absolute;
+	width:980px;
+	top:0;
+	bottom:0;
+	left:calc((100% - 980px) * 0.5);
+}
+
+/* Text for Back to Top Button */
+#idski2g0{
+	left: 357px;
+	width: 275px;
+	position: absolute;
+	top: 35px;
+}
+
+#btptitle{
+	text-align:center;
+}
+
+#idski2fy{
+	left: 477px;
+	position: absolute;
+	transform: rotate(180deg) translateZ(0px);
+	top: 6px;
+	width: 32px;
+	height: 21px;
+}
+
+#idski2fylink{
+	cursor: pointer;
+	width: 32px;
+	height: 21px;
+}
+
+#idski2fyimg{
+	position: relative;
+	width: 32px;
+	height: 21px;
+}
+
+#idski2fyimgimage{
+	width: 32px;
+	height: 21px;
+	object-fit: contain;
+}
+
+/* Slideshow */
+#comp-ifwcgpcl{
+	left: -469px;
+	position: absolute;
+	top: 1899px;
+	height: 21px;
+	width: 0px;
+}
+
+#comp-izpho53k{
+	position: absolute;
+	top: 0px;
+	height: 640px;
+	left: 0px;
+	width: 980px;
+}
+
+#comp-izpho53kinlineContentParent{
+	overflow: hidden;
+	left: -462px;
+	width: 1903px;
+	height: 600px;
+	background: #EAF4F6;
+}
+
+#comp-izpho53kinlineContent{
+	left: 462px;
+	width: 980px;
+}
+
+#comp-izpho54s{
+	position: absolute;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	visibility: inherit;
+	opacity: 1;
+	top: 0px;
+	height: 640px;
+	left: 0px;
+	width: 980px;
+}
+
+#comp-izpho53knavigationArrows{
+	top:calc(50% - 20px);
+}
+
+/* Summary of Charity Page */
+#summary{
+	margin-top: 628px;
+}
+
+#idskarsh_0{
+	left: 376px;
+	width: 591px;
+	position: absolute;
+	visibility: inherit;
+	top: 678px;
+}
+
+#sumspan{
+	font-weight:bold;
+}
+
+#comp-izpiogp2{
+	left: 400px;
+	width: 520px;
+	position: absolute;
+	top: 784px;
+}
+
+/* Apply Now Button in the Summary of Charity Page */
+#comp-j0tek9m0{
+	left: 559px;
+	position: absolute;
+	top: 1060px;
+	height: 56px;
+	min-height: 39px;
+	width: 202px;
+}
+
+/* Facilities Page */
+#comp-j0tespyg{
+	left: -429px;
+	position: absolute;
+	top: 2975px;
+	height: 21px;
+	width: 0px;
+}
+
+#comp-j0tet66a{
+	left: -6px;
+	width: 947px;
+	position: absolute;
+	top: 2691px;
+	height: 622px;
+}
+
+/* Facilities Page Image */
+#comp-j0tf0bq2{
+	left: 42px;
+	position: absolute;
+	top: 100px;
+	width: 548px;
+	height: 401px;
+}
+
+#comp-j0tf0bq2link{
+	width: 548px;
+	height: 401px;
+}
+
+#comp-j0tf0bq2img{
+	position: relative;
+	width: 548px;
+	height: 401px;
+}
+
+#comp-j0tf0bq2imgimag{
+	width: 548px;
+	height: 401px;
+	object-fit: cover;
+}
+
+/* Text for Facilities Page */
+#comp-j0tf0rhc{
+	position: absolute;
+	width: 310px;
+	height: 483px;
+	top: 70px;
+	left: 614px;
+}
+
+#comp-j0tet68r{
+	width: 304px;
+	position: absolute;
+	left: 6px;
+	top: 0px;
+}
+
+#factitle{
+	font-size:20px;
+}
+
+#facspan{
+	font-size:20px;
+}
+
+#facspan2{
+	font-weight:bold;
+}
+
+#comp-j0tet68t{
+	width: 310px;
+	position: absolute;
+	left: 0px;
+	top: 39px;
+}
+
+#facul{
+	font-weight:bold;
+}
+
+#facspan3{
+	font-weight:bold;
+}
+
+/* Facilities Page Title */
+#comp-j0tet669{
+	left: -30px;
+	width: 980px;
+	position: absolute;
+	visibility: inherit;
+	top: 2631px;
+}
+
+#comp-j0tet669h2{
+	text-align:center;
+}
+
+#comp-j0tet669span{
+	font-weight:bold;
+}

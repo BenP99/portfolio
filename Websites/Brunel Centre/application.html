@@ -1,0 +1,384 @@
+<head>
+
+<!-- Mobile Responsive Code -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=1000; user-scalable=0;"/>
+<style>
+body {
+  min-width:1050px;
+}
+</style>
+
+<!-- Title of Website -->
+<title>Brunel Centre of Bedford Ltd. | Application Form</title>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="Images/favicon.ico" type="image/x-icon">
+
+<script type="text/javascript">
+    var santaBase = 'https://static.parastorage.com/services/santa/1.2200.6';
+	var clientSideRender = true;
+</script>
+
+<!-- Script Links -->
+<script defer="" src="https://static.parastorage.com/services/third-party/requirejs/2.1.15/require.min.js"></script>
+<script defer="" src="https://static.parastorage.com/services/santa/1.2200.6/app/main-r.min.js"></script>
+<link rel="prefetch" href="https://static.parastorage.com/services/third-party/react/0.14.3/react-with-addons.min.js">
+<link rel="prefetch" href="https://static.parastorage.com/services/third-party/tweenmax/1.19.0/minified/TweenMax.min.js">
+<link rel="prefetch" href="https://static.parastorage.com/services/third-party/lodash/4.17.4/dist/lodash.min.js">
+<link rel="preconnect" href="https://static.wixstatic.com/">
+<script src="js/multi_step_form.js" type="text/javascript"></script>
+
+<!-- Google Address Search on Application Form -->
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/jquery.geocomplete.js"></script>
+<script>
+$(function(){												
+$("#geocomplete").geocomplete()
+	.bind("geocode:result", function(event, result){
+		$.log("Result: " + result.formatted_address);
+	})
+	.bind("geocode:error", function(event, status){
+		$.log("ERROR: " + status);
+	})
+	.bind("geocode:multiple", function(event, results){
+		$.log("Multiple: " + results.length + " results found");
+	});	
+	$("#find").click(function(){
+		$("#geocomplete").trigger("geocode");
+	});																
+	$("#examples a").click(function(){
+		$("#geocomplete").val($(this).text()).trigger("geocode");
+		return false;
+	});														
+});
+</script>
+<script>
+$(function(){												
+$("#geocomplete2").geocomplete()
+	.bind("geocode:result", function(event, result){
+		$.log("Result: " + result.formatted_address);
+	})
+	.bind("geocode:error", function(event, status){
+		$.log("ERROR: " + status);
+	})
+	.bind("geocode:multiple", function(event, results){
+		$.log("Multiple: " + results.length + " results found");
+	});	
+	$("#find").click(function(){
+		$("#geocomplete").trigger("geocode");
+	});																
+	$("#examples a").click(function(){
+		$("#geocomplete2").val($(this).text()).trigger("geocode");
+		return false;
+	});														
+});
+</script>
+
+<!-- Link to Stylesheet -->
+<link rel="stylesheet" href="Styles/style.css">
+<link rel="stylesheet" href="Styles/applicationcss.css">
+        
+<!-- Webpage Style/Loading -->
+<script>
+    // BEAT MESSAGE
+    try {
+        window.wixBiSession = {
+            initialTimestamp : Date.now(),
+                        viewerSessionId: 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c)
+                    { var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8); return v.toString(16); }
+            )
+                    };
+        (new Image()).src = 'https://frog.wix.com/bt?src=29&evid=3&pn=1&et=1&v=1.2200.6&msid=8070b430-d882-42fd-86d2-f4008b706ca5&vsi=' + wixBiSession.viewerSessionId +
+                '&url=' + encodeURIComponent(location.href.replace(/^http(s)?:\/\/(www\.)?/, '')) +
+                '&isp=0&st=2&ts=0&c=' + wixBiSession.initialTimestamp;
+    } catch (e){}
+    // BEAT MESSAGE END
+</script>
+<!-- META DATA -->
+<script type="text/javascript">
+
+    var serviceTopology = {"serverName":"app-jvm13b.42.wixprod.net","cacheKillerVersion":"1","staticServerUrl":"https://static.parastorage.com/","usersScriptsRoot":"https://static.parastorage.com/services/wix-users/2.658.0","biServerUrl":"https://frog.wix.com/","userServerUrl":"https://users.wix.com/","billingServerUrl":"https://premium.wix.com/","mediaRootUrl":"https://static.wixstatic.com/","logServerUrl":"https://frog.wix.com/plebs","monitoringServerUrl":"https://TODO/","usersClientApiUrl":"https://users.wix.com/wix-users","publicStaticBaseUri":"https://static.parastorage.com/services/wix-public/1.228.0","basePublicUrl":"https://www.wix.com/","postLoginUrl":"https://www.wix.com/my-account","postSignUpUrl":"https://www.wix.com/new/account","baseDomain":"wix.com","staticMediaUrl":"https://static.wixstatic.com/media","staticAudioUrl":"https://music.wixstatic.com/mp3","emailServer":"https://assets.wix.com/common-services/notification/invoke","blobUrl":"https://static.parastorage.com/wix_blob","htmlEditorUrl":"http://editor.wix.com/html","siteMembersUrl":"https://users.wix.com/wix-sm","scriptsLocationMap":{"santa-versions":"https://static.parastorage.com/services/santa-versions/1.419.0","dbsm-viewer-app":"https://static.parastorage.com/services/dbsm-viewer-app/1.67.0","wix-music-embed":"https://static.parastorage.com/services/wix-music-embed/1.22.0","santa-resources":"https://static.parastorage.com/services/santa-resources/1.2.0","wixapps":"https://static.parastorage.com/services/wixapps/2.486.0","ecommerce":"https://static.parastorage.com/services/ecommerce/1.203.0","dbsm-editor-app":"https://static.parastorage.com/services/dbsm-editor-app/1.205.0","langs":"https://static.parastorage.com/services/langs/2.568.0","automation":"https://static.parastorage.com/services/automation/1.23.0","web":"https://static.parastorage.com/services/web/2.1229.63","sitemembers":"https://static.parastorage.com/services/sm-js-sdk/1.31.0","js-wixcode-sdk":"https://static.parastorage.com/services/js-wixcode-sdk/1.102.0","tpa":"https://static.parastorage.com/services/tpa/2.1062.0","santa":"https://static.parastorage.com/services/santa/1.2200.6","skins":"https://static.parastorage.com/services/skins/2.1229.63","core":"https://static.parastorage.com/services/core/2.1229.63","ck-editor":"https://static.parastorage.com/services/ck-editor/1.87.3","bootstrap":"https://static.parastorage.com/services/bootstrap/2.1229.63"},"developerMode":false,"productionMode":true,"staticServerFallbackUrl":"https://sslstatic.wix.com/","staticVideoUrl":"https://video.wixstatic.com/","cloudStorageUrl":"https://static.wixstatic.com/","scriptsDomainUrl":"https://static.parastorage.com/","userFilesUrl":"https://static.parastorage.com/","staticHTMLComponentUrl":"https://370757-wixsite-com.usrfiles.com/","secured":true,"ecommerceCheckoutUrl":"https://www.safer-checkout.com/","premiumServerUrl":"https://premium.wix.com/","appRepoUrl":"https://assets.wix.com/wix-lists-ds-webapp","digitalGoodsServerUrl":"https://dgs.wixapps.net/","wixCloudBaseDomain":"wix-code.com","mailServiceSuffix":"/_api/common-services/notification/invoke","staticVideoHeadRequestUrl":"https://storage.googleapis.com/video.wixstatic.com","protectedPageResolverUrl":"https://site-pages.wix.com/_api/wix-public-html-info-webapp/resolve_protected_page_urls","mediaUploadServerUrl":"https://files.wix.com/","staticDocsUrl":"https://media.wix.com/ugd","publicStaticsUrl":"https://static.parastorage.com/services/wix-public/1.228.0"};
+    var santaModels = true;
+    var rendererModel = {"metaSiteId":"8070b430-d882-42fd-86d2-f4008b706ca5","siteInfo":{"documentType":"UGC","applicationType":"HtmlWeb","siteId":"12ec36b5-3cef-4bd0-b23e-307a666cc079","siteTitleSEO":"mysite"},"clientSpecMap":{"2":{"type":"appbuilder","applicationId":2,"appDefinitionId":"3d590cbc-4907-4cc4-b0b1-ddf2c5edf297","instanceId":"14a771a4-222c-9088-6dbf-b2b709cb2351","state":"Initialized"},"13":{"type":"sitemembers","applicationId":13,"collectionType":"Open","collectionFormFace":"Register","smcollectionId":"f241e179-e26a-4e8c-822b-eb6591c87726"}},"premiumFeatures":[],"geo":"","languageCode":"en","previewMode":false,"userId":"6d50bd64-08e6-462c-949d-11cc92e57e87","siteMetaData":{"preloader":{"enabled":false},"adaptiveMobileOn":true,"quickActions":{"socialLinks":[],"colorScheme":"dark","configuration":{"quickActionsMenuEnabled":false,"navigationMenuEnabled":true,"phoneEnabled":false,"emailEnabled":false,"addressEnabled":false,"socialLinksEnabled":false}},"contactInfo":{"companyName":"","phone":"","fax":"","email":"","address":""}},"runningExperiments":{"sv_blogRealPagination":"new","appMarketCache":"new","sv_textLinkWhiteList":"new","sv_platform1":"new","reactAppMarketModals":"new","sv_hoverBox":"new","sv_dpages":"new","clickToAction_email":"new","sv_smSocialLoginEnabledByDefault":"new","connectionsData":"new","sv_mergeAggregator":"new","sv_remove_headTagsSaveDataFixer":"new","sv_blogTranslateErrorMessage":"new","sv_listsBatchRequest":"new","sv_blogRelatedPosts":"new","noDynamicModelOnFirstLoad":"new","sv_expandModeBi":"new","sv_reportPerformance":"new","clickToAction_url":"new","sv_cssDesignData":"new","useBeaconForPerformanceEvent":"new","sv_blogCountersHttpsRequest":"new","viewPortImageLoadingBi":"3000","sv_webpJPGSupport":"new","sv_addFirstTimeRenderBiEvents":"new","reactAppMarket":"new","fontsTrackingInViewer":"new","tpaHideFromMenu":"new","sv_blogSocialCounters":"new","sv_addJsonldToHeadForSEO":"new","sv_remove_backgroundsSaveDataFixer":"new","clickToAction_phone":"new","sv_stripMigrationViewer":"new","viewPortImageLoading":"new","allowScriptTagTypeJsonOnSeoMetatag":"old","sv_fixColorOfHatulOnHover":"new","autosaveTpaSettle":"new","retryOnConcurrencyError":"new","permalinkWithoutDate":"new","sv_faviconFromServer":"new","sv_obMigrationFlow":"new","specs.users.NewLoginVelocityTemplateFT":"true","pageListNewFormat":"new","sv_blogAuthorAsALink":"new","se_ignoreBottomBottomAnchors":"new","packagescache":"new","fontScaling":"new","autosaveWixappsSettle":"new","sv_tpaMultiWidget":"new","operationsQAllAsync":"new","sv_sweepSorter":"old","hashPasswordOnServer":"new","remove_mobile_props_and_design_if_really_deleted":"new","sv_tpaAddChatApp":"new","sv_stripToColumnMigration":"new","sv_blogOldUrlShareFix":"new","sv_addBorderToElementBounds":"new","sv_blogNotifySocialCounters":"new","sv_blogLikeCounters":"new","sv_blogNewSocialShareButtonsInTemplates":"new","sv_ignoreBottomBottomAnchors":"new","sv_addBlogPerformanceBiEvents":"new","sv_allowStripToColumnMigration":"new","sv_grid":"new","sv_NewFacebookConversionPixel":"new","sv_tpaPerformanceBi":"new","wixCodeBinding":"new","sv_alwaysEnableMobileZoom":"new","contactFormActivity":"old"},"urlFormatModel":{"format":"slash","forbiddenPageUriSEOs":["app","apps","_api","robots.txt","sitemap.xml","feed.xml","sites"],"pageIdToResolvedUriSEO":{}},"passwordProtectedPages":[],"useSandboxInHTMLComp":true,"siteMediaToken":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcHA6MzQ2NjQ5MDcwMDI5NzIwNiIsInN1YiI6InVzZXI6NmQ1MGJkNjQtMDhlNi00NjJjLTk0OWQtMTFjYzkyZTU3ZTg3IiwiYXVkIjoidXJuOnNlcnZpY2U6ZmlsZS51cGxvYWQiLCJleHAiOjE0OTE5MjQzNDMsImlhdCI6MTQ5MTMxOTU0MywianRpIjoiZ0RwcTZHc3RLclNmbGVkblEtMmhkUSJ9.JrlTcYBKs66whkoiP0jA6_1wVRKicTNZGNlm07EWPHk","pagesPlatformApplications":{}};
+    var publicModel = {"domain":"wixsite.com","externalBaseUrl":"https:\/\/370757.wixsite.com\/mysite","unicodeExternalBaseUrl":"https:\/\/370757.wixsite.com\/mysite","pageList":{"pages":[{"pageId":"c1537","title":"Home","pageUriSEO":"home","pageJsonFileName":"6d50bd_7bbad9e083cb4f229cc7bc09288efa20_72.json"},{"pageId":"o08ng","title":"Application Form","pageUriSEO":"application-form","pageJsonFileName":"6d50bd_3465ba16483ba9bc4ec50ccfe537097d_72.json"},{"pageId":"atj7p","title":"Current Activities\/News","pageUriSEO":"current-activities-news","pageJsonFileName":"6d50bd_2bb68fbc508570d68b24f258048d2065_72.json"},{"pageId":"wkj67","title":"FAQ","pageUriSEO":"faq","pageJsonFileName":"6d50bd_a14475b1d57739bac37fe00d1881146a_73.json"},{"pageId":"zo2en","title":"Contact Us","pageUriSEO":"contact-us","pageJsonFileName":"6d50bd_cc706991a977e8482fc00e88c404985b_72.json"}],"mainPageId":"c1537","masterPageJsonFileName":"6d50bd_072aa6f7c9913bac56db176bbfc44389_72.json","topology":[{"baseUrl":"https:\/\/static.wixstatic.com\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/staticorigin.wixstatic.com\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/fallback.wix.com\/","parts":"wix-html-editor-pages-webapp\/page\/{filename}"}]},"timeSincePublish":51641,"favicon":"","deviceInfo":{"deviceType":"Desktop","browserType":"Firefox","browserVersion":52},"siteRevision":73,"sessionInfo":{"hs":-1638138906,"svSession":"23edd4d4a34987c1f55ef9c1423d4555ebd73e9a0699a6df73ccfcc397b6c353deb0b184ff8748b32085eb04c931e9121e60994d53964e647acf431e4f798bcdd5113e8a1b27f8de5f0a40b2373739ff482b8b0c629ed97bb1b90a3cf8141cad","ctToken":"Z05xWnc3ZEwwanM0d2tTRE5TbFJBaXB3bXJpX09oblBnQUJWbzhZM1ZEc3x7InVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdPVzY0OyBydjo1Mi4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzUyLjAiLCJ2YWxpZFRocm91Z2giOjE0OTE5MjQzNDMyOTJ9","isAnonymous":false},"metaSiteFlags":[],"siteMembersProtectedPages":[],"indexable":true,"hasBlogAmp":false};
+
+    
+
+    var googleAnalytics = "UA-2117194-61"
+    ;
+
+    var googleRemarketing = "";
+    var facebookRemarketing = "";
+    var yandexMetrika = "";
+
+</script>
+</head>
+
+<body class="" style="">
+
+	<!-- Background of Whole Page -->
+	<div id="SITE_CONTAINER">
+		<div class="noop" data-santa-version="1.2200.6" data-reactid=".0">
+			<div data-reactid=".0.0"></div>
+			<div id="SITE_BACKGROUND" class="siteBackground" data-reactid=".0.$SITE_BACKGROUND">
+				<div id="SITE_BACKGROUND_previous_noPrev" class="siteBackgroundprevious" data-reactid=".0.$SITE_BACKGROUND.$noPrevscrollpreview">
+					<div id="SITE_BACKGROUNDpreviousImage" class="siteBackgroundpreviousImage" data-reactid=".0.$SITE_BACKGROUND.$noPrevscrollpreview.0"></div>
+					<div id="SITE_BACKGROUNDpreviousVideo" class="siteBackgroundpreviousVideo" data-reactid=".0.$SITE_BACKGROUND.$noPrevscrollpreview.1"></div>
+					<div id="SITE_BACKGROUND_previousOverlay_noPrev" class="siteBackgroundpreviousOverlay" data-reactid=".0.$SITE_BACKGROUND.$noPrevscrollpreview.2"></div>
+				</div>
+				<div id="SITE_BACKGROUND_current_zo2en_desktop_bg" class="siteBackgroundcurrent" 
+					data-reactid=".0.$SITE_BACKGROUND.$zo2en_desktop_bgscrollpreview">
+						<div id="SITE_BACKGROUND_currentImage_zo2en_desktop_bg" data-type="bgimage" class="siteBackgroundcurrentImage" 
+							data-reactid=".0.$SITE_BACKGROUND.$zo2en_desktop_bgscrollpreview.0" data-image-css="{&quot;backgroundSize&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&
+							quot;&quot;}"></div>
+						<div id="SITE_BACKGROUNDcurrentVideo" class="siteBackgroundcurrentVideo" data-reactid=".0.$SITE_BACKGROUND.$zo2en_desktop_bgscrollpreview.1"></div>
+						<div id="SITE_BACKGROUND_currentOverlay_zo2en_desktop_bg" class="siteBackgroundcurrentOverlay" 
+							data-reactid=".0.$SITE_BACKGROUND.$zo2en_desktop_bgscrollpreview.2"></div>
+				</div>
+			</div>
+			
+			<!-- Whole Page -->
+			<div class="SITE_ROOT" id="SITE_ROOT" data-reactid=".0.$SITE_ROOT">
+				<div id="masterPage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot">
+				
+					<!-- Navigation Bar -->
+					<div class="s0" data-state=" fixedPosition" id="SITE_HEADER" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER">
+						<div id="SITE_HEADERscreenWidthBackground" class="s0screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.0">
+							<div class="s0_bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.0.0"></div>
+						</div>
+						<div id="SITE_HEADERcenteredContent" class="s0centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1">
+							<div id="SITE_HEADERbg" class="s0bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.0"></div>
+							<div id="SITE_HEADERinlineContent" class="s0inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1">
+								<div id="DrpDwnMn0-jgk" data-menuborder-y="0" data-menubtn-border="0" data-ribbon-els="0" data-label-pad="0" data-ribbon-extra="0" data-drophposition="" data-dropalign="right" 
+									class="s1" data-state="right notMobile" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$
+									DrpDwnMn0-jgk" data-dropmode="dropDown">
+										<div id="DrpDwnMn0-jgkitemsContainer" class="s1itemsContainer" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0">
+											
+											<!-- Home Nav Button -->
+											<a data-listposition="center" 
+												href="index.html" target="_self" class="s1repeaterButton" data-state="menu  idle link notMobile" id="DrpDwnMn0-jgk0" 
+												data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmi1q64" data-original-gap-between-text-and-btn="10">
+													<div class="s1repeaterButton_gapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmi1q64.0">
+														<div id="DrpDwnMn0-jgk0bg" class="s1repeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmi1q64.0.0">
+															<p id="DrpDwnMn0-jgk0label" class="s1repeaterButtonlabel" 
+																data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmi1q64.0.0.0">Home</p>
+														</div>
+													</div>
+											</a>
+											
+											<!-- Summary of Charity Nav Button -->
+											<a data-listposition="center" 
+												href="index.html#summary" target="_self" data-keep-roots="true" data-anchor="#c16ri" class="s1repeaterButton" 
+												data-state="menu  idle link notMobile" id="DrpDwnMn0-jgk1" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmi9k2" 
+												data-original-gap-between-text-and-btn="10">
+													<div class="s1repeaterButton_gapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmi9k2.0">
+														<div id="DrpDwnMn0-jgk1bg" class="s1repeaterButtonbg" 
+															data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmi9k2.0.0">
+																<p id="DrpDwnMn0-jgk1label" class="s1repeaterButtonlabel" 
+																	data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmi9k2.0.0.0">Summary of Charity</p>
+														</div>
+													</div>
+											</a>
+											
+											<!-- Trustees and Contact Info Nav Button -->
+											<a data-listposition="center" 
+												href="index.html#trustees" target="_self" data-keep-roots="true" data-anchor="#c20of" class="s1repeaterButton" data-state="menu  idle link notMobile" 
+												id="DrpDwnMn0-jgk2" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmiohf" data-original-gap-between-text-and-btn="10">
+													<div class="s1repeaterButton_gapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmiohf.0">
+														<div id="DrpDwnMn0-jgk2bg" class="s1repeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$
+															bmiohf.0.0">
+																<p id="DrpDwnMn0-jgk2label" class="s1repeaterButtonlabel" 
+																	data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$bmiohf.0.0.0">Trustees and Contact Info</p>
+														</div>
+													</div>
+											</a>
+											
+											<!-- News Nav Button -->
+											<a data-listposition="center" 
+												href="index.html#news" target="_self" data-keep-roots="true" data-anchor="#dataItem-ifwcgpco" class="s1repeaterButton" data-state="menu  idle link notMobile" 
+												id="DrpDwnMn0-jgk3" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-ifwchdpj" data-original-gap-between-text-and-btn="10">
+													<div class="s1repeaterButton_gapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-ifwchdpj.0">
+														<div id="DrpDwnMn0-jgk3bg" class="s1repeaterButtonbg" 
+															data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-ifwchdpj.0.0">
+																<p id="DrpDwnMn0-jgk3label" class="s1repeaterButtonlabel" 
+																	data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-ifwchdpj.0.0.0">News</p>
+														</div>
+													</div>
+											</a>
+											
+											<!-- Application Form Nav Button -->
+											<a data-listposition="center" 
+												href="application-form.html" target="_self" class="s1repeaterButton" data-state="menu  idle link notMobile" id="DrpDwnMn0-jgk4" 
+												data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-igj7scoo" data-original-gap-between-text-and-btn="10">
+													<div class="s1repeaterButton_gapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-igj7scoo.0">
+														<div id="DrpDwnMn0-jgk4bg" class="s1repeaterButtonbg" 
+															data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-igj7scoo.0.0">
+																<p id="DrpDwnMn0-jgk4label" class="s1repeaterButtonlabel" 
+																	data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-igj7scoo.0.0.0">Application Form</p>
+														</div>
+													</div>
+											</a>
+											
+											<!-- FAQ Nav Button -->
+											<a data-listposition="right" 
+												href="FAQ.html" target="_self" class="s1repeaterButton" data-state="menu  idle link notMobile" id="DrpDwnMn0-jgk5" 
+												data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-j13os4li" data-original-gap-between-text-and-btn="10">
+													<div class="s1repeaterButton_gapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-j13os4li.0">
+														<div id="DrpDwnMn0-jgk5bg" class="s1repeaterButtonbg" 
+															data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-j13os4li.0.0">
+																<p id="DrpDwnMn0-jgk5label" class="s1repeaterButtonlabel" 
+																	data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.0.$dataItem-j13os4li.0.0.0">FAQ</p>
+														</div>
+													</div>
+											</a>
+											
+										</div>
+										<div id="DrpDwnMn0-jgkmoreButton" class="s1moreButton" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.1"></div>
+										<div data-drophposition="" data-dropalign="right" id="DrpDwnMn0-jgkdropWrapper" class="s1dropWrapper" 
+											data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.2">
+												<div id="DrpDwnMn0-jgkmoreContainer" class="s1moreContainer" 
+													data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-jgk.2.0"></div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Footer -->
+					<div class="s2_footer s2" data-state=" " id="SITE_FOOTER" 
+						data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER">
+							<div id="SITE_FOOTERscreenWidthBackground" class="s2screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.0"></div>
+							<div id="SITE_FOOTERcenteredContent" class="s2centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1">
+								<div id="SITE_FOOTERbg" class="s2bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.0"></div>
+								<div id="SITE_FOOTERinlineContent" class="s2inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1">
+									<div class="s3" id="i6buxfuz" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$i6buxfuz">
+										<!-- Social Buttons -->
+										<a href="#"><img id="twitter" src="Images/twitter.png"></img></a>
+										<a href="#"><img id="facebook" src="Images/facebook.png"></img></a>
+										<p class="font_9" id="footer">Developers @ Bedford College: Olivian, Raheem, and Ben</p>
+									</div>
+								</div>
+							</div>
+					</div>
+					
+					<!-- Content for the Whole Page -->
+					<div class="s4" data-state="" id="PAGES_CONTAINER" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER">
+						<div id="PAGES_CONTAINERscreenWidthBackground" class="s4screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.0"></div>
+						<div id="PAGES_CONTAINERcenteredContent" class="s4centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1">
+							<div id="PAGES_CONTAINERbg" class="s4bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.0"></div>
+							<div id="PAGES_CONTAINERinlineContent" class="s4inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1">
+								<div class="s5" id="SITE_PAGES" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES">
+									<div class="s6" id="zo2en" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zo2en">
+										
+										<!-- Complete the Application Form Title -->
+										<div id="zo2enbg" class="s6bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zo2en.0"></div>
+										<div id="zo2eninlineContent" class="s6inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zo2en.1">
+											<div class="s3" id="comp-izzh04wn" 
+												data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$zo2en.1.$comp-izzh04wn">
+													<h2 class="font_2"><span id="appformtitle"><span class="color_19">Complete the Application Form</span></span></h2>
+											</div>
+											
+											<!-- The Application Form -->
+											<div class="s3" id="comp-j09gn03f" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$
+												SITE_PAGES.$zo2en.1.$comp-j09gn03f">
+													<form action="application.php" class="regform" method="post">
+													<!-- Progressbar -->
+													<ul id="progressbar">
+													<li id="active1">Personal Details</li>
+													<li id="active2">Bursary Course Details</li>
+													<li id="active3">Finishing the Application</li>
+													</ul>
+													<!-- Fieldsets -->
+													<!-- Fieldset 1 -->
+													<fieldset id="first">
+													<h2 class="title">Personal Details</h2>
+													<p class="subtitle">Step 1</p><input class="text_field" name="name" placeholder="Name" type="text" value="">
+													<input class="text_field" name="dob" placeholder="DOB" type="text" value="">
+													<input class="text_field" name="age" placeholder="Age" type="text" value=""><br>
+													<label>Gender</label><br>
+													  <input type="radio" name="gender" value="male" checked> <label>Male</label><br>
+													  <input type="radio" name="gender" value="female"> <label>Female</label><br>
+													<input id="geocomplete" name="address" type="text" placeholder="Type in an Address" size="90" /><br>
+													<input class="text_field" name="postcode" placeholder="Postcode" type="text" value=""><br>
+													<input class="text_field" name="mobile" placeholder="Mobile" type="text" value="">
+													<input class="text_field" name="email" placeholder="Email" type="text" value="">
+													<h2>Previous Education</h2>
+													<input class="text_field" name="attendedschool" placeholder="Name of School Attended" type="text" value="">
+													<input class="text_field" name="dateleft" placeholder="Date of Leaving School" type="text" value="">
+													<input class="text_field" name="tutor" placeholder="Name of Tutor / Head of Year" type="text" value="">
+													<h2>Other Qualifications</h2>
+													<p class="subtitle">If any of the qualifications don't apply to you put "None" or "N/A" in the fillable areas.</p>
+													<textarea name="gsce" rows="5" cols="50" placeholder="GSCE / Vocational Equivalent" type="text" value=""></textarea>
+													<textarea name="grades1" rows="5" cols="50" placeholder="Date Taken and Grades Achieved" type="text" value=""></textarea><br>
+													<textarea name="as&a" rows="5" cols="50" placeholder="AS & A Level / Vocational Equivalent" type="text" value=""></textarea>
+													<textarea name="grades2" rows="5" cols="50" placeholder="Date Taken and Grades Achieved" type="text" value=""></textarea><br>
+													<input id="next_btn1" onclick="next_step1()" type="button" value="Next">
+													</fieldset>
+													
+													<!-- Fieldset 2 -->
+													<fieldset id="second">
+													<h2 class="title">Bursary Course Details</h2>
+													<p class="subtitle">Step 2</p>
+													<input class="text_field" name="title" placeholder="Full Title of Course" type="text" value="">
+													<input class="text_field" name="level" placeholder="Level of Course" type="text" value="">
+													<input class="text_field" name="duration" placeholder="Duration of Course in Years" type="text">
+													<input class="text_field" name="subject" placeholder="Vocational Subject Area" type="text">
+													<h2>Employer Information – (If you are an apprentice)</h2>
+													<p class="subtitle">If you are not an apprentice put "None" or "N/A" in the fillable areas.</p>
+													<input class="text_field" name="company" placeholder="Company Name" type="text">
+													<input class="text_field" name="jobtitle" placeholder="Job Title" type="text"><br>
+													<input id="geocomplete2" name="caddress" type="text" placeholder="Type in the Company Address" size="90" /><br>
+													<input class="text_field" name="cpostcode" placeholder="Company Postcode" type="text"><br>
+													<input id="pre_btn1" onclick="prev_step1()" type="button" value="Previous">
+													<input id="next_btn2" name="next" onclick="next_step2()" type="button" value="Next">
+													</fieldset>
+													
+													<!-- Fieldset 3 -->
+													<fieldset id="third">
+													<h2 class="title">Finishing the Application</h2>
+													<p class="subtitle">Step 3</p>
+													<h2>Career Aspirations</h2>
+													<textarea name="aspirations" rows="10" cols="240" placeholder="Please explain why you have chosen to do a vocational course or apprenticeship, why you are suited to this course and what you would like to do when you complete your course or apprenticeship."></textarea>
+													<h2>Special Circumstances</h2>
+													<textarea name="circumstances" rows="10" cols="240" placeholder="Please state why you believe you should be awarded a Brunel bursary. Please explain in as much detail as possible."></textarea><br>
+													<h2>Declarations</h2>
+													<p class="subtitle">I declare that the information that I have given on this form is correct and complete to the best of my knowledge. 
+														I understand that giving false information will automatically disqualify my application.</p>
+													<input class="text_field" name="print" placeholder="Printed Full Name" type="text">
+													<input class="text_field" name="signature" placeholder="Signature" type="text">
+													<input class="text_field" name="decdate" placeholder="Date (DD/MM/YYYY)" type="text">
+													<input class="text_field" name="decemail" placeholder="Email" type="text">
+													<h2>Bank Details</h2>
+													<p class="subtitle">Please note: It is your responsibility to inform us if your bank account details have changed. 
+														Failure to do so may result in payments being made to the wrong account.</p>
+													<input class="text_field" name="holder" placeholder="Account Holder’s Name" type="text">
+													<input class="text_field" name="number" placeholder="Account Number" type="text">
+													<input class="text_field" name="sortcode" placeholder="Sort Code" type="text"><br>
+													<input id="pre_btn2" onclick="prev_step2()" type="button" value="Previous">
+													<input class="submit_btn" name="Submit" onclick="validation(event)" type="submit" value="Submit">
+													</fieldset>
+													</form>
+											</div>										
+												
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<noscript data-reactid=".0.4"></noscript>
+			<div class="siteAspectsContainer" data-reactid=".0.$siteAspectsContainer">
+				<div data-reactid=".0.$siteAspectsContainer.$aspectPortal"></div>
+				<div data-reactid=".0.$siteAspectsContainer.$externalScriptContainer"></div>
+				<noscript data-reactid=".0.$siteAspectsContainer.$ecomCheckoutAspectContrainer"></noscript>
+			</div>
+			<noscript data-reactid=".0.6"></noscript>
+		</div>
+	</div>
+</body>

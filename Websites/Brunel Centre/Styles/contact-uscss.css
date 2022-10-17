@@ -1,0 +1,325 @@
+/* Background of Whole Page */
+#SITE_BACKGROUND{
+	position: absolute;
+	top: 0px;
+	height: 1191px;
+	width: 1903px;
+}
+
+#SITE_BACKGROUND_current_zo2en_desktop_bg{
+	top:0;
+	height:100%;
+	width:100%;
+	background-color:rgba(221, 221, 221, 1);
+	display:;
+	position:absolute;
+}
+
+#SITE_BACKGROUND_currentImage_zo2en_desktop_bg{
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#SITE_BACKGROUND_currentOverlay_zo2en_desktop_bg{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+/* Whole Page */
+#SITE_ROOT{
+	width:980px;
+	padding-bottom:40px;
+}
+
+#masterPage{
+	width: 980px;
+	position: static;
+	top: 0px;
+	height: 941px;
+}
+
+/* Navigation Bar */
+#SITE_HEADER{
+	width: 980px;
+	position: fixed;
+	z-index: 50;
+	top: 0px;
+	height: 78px;
+	left: 0px;
+}
+
+#SITE_HEADERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#DrpDwnMn0-jgk{
+	left: 128px;
+	width: 852px;
+	position: absolute;
+	top: 25px;
+	height: 30px;
+}
+
+#DrpDwnMn0-jgkitemsContainer{
+	text-align:right;
+}
+
+/* Home Nav Button */
+#DrpDwnMn0-jgk0{
+	display: inherit;
+	color: grey;
+	width: 66px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk0bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk0label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Summary of Charity Nav Button */
+#DrpDwnMn0-jgk1{
+	display: inherit;
+	color: grey;
+	width: 149px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk1bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk1label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Trustees and Contact Info Nav Button */
+#DrpDwnMn0-jgk2{
+	display: inherit;
+	color: grey;
+	width: 183px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk2bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk2label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* News Nav Button */
+#DrpDwnMn0-jgk3{
+	display: inherit;
+	color: grey;
+	width: 64px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk3bg{
+	text-align:center;"
+}
+
+#DrpDwnMn0-jgk3label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Application Form Nav Button */
+#DrpDwnMn0-jgk4{
+	display: inherit;
+	color: grey;
+	width: 132px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk4bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk4label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* FAQ Nav Button */
+#DrpDwnMn0-jgk5{
+	display: inherit;
+	color: grey;
+	width: 54px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk5bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk5label{
+	text-align: center;
+	line-height: 30px;
+}
+
+#DrpDwnMn0-jgkdropWrapper{
+	visibility: hidden;
+	left: auto;
+	right: 250px;
+	bottom: auto;
+}
+
+#DrpDwnMn0-jgkmoreContainer{
+	visibility: hidden;
+	left: auto;
+	right: 250px;
+}
+
+/* Footer */
+#SITE_FOOTER{
+	width: 980px;
+	position: absolute;
+	left: 0px;
+	height: 86px;
+	bottom: auto;
+	top: 1055px;
+}
+
+#SITE_FOOTERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#i6buxfuz{
+	left: -64px;
+	width: 568px;
+	position: absolute;
+	top: 38px;
+}
+
+#footer{
+	text-align:center;
+	color: #0F4C85;
+}
+
+/* Content for the Whole Page */
+#PAGES_CONTAINER{
+	width: 980px;
+	position: absolute;
+	top: 78px;
+	height: 976px;
+	left: 0px;
+}
+
+#PAGES_CONTAINERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#SITE_PAGES{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 976px;
+}
+
+#zo2en{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 976px;
+}
+
+/* Contact Us Title */
+#comp-izzh04wn{
+	left: 20px;
+	width: 682px;
+	position: absolute;
+	visibility: inherit;
+	top: 43px;
+}
+
+#contacttitle{
+	font-weight:bold;
+}
+
+/* Map */
+#comp-izzh0xdo{
+	left: -183px;
+	width: 1068px;
+	position: absolute;
+	top: 109px;
+	height: 555px;
+}
+
+#comp-j09gohpv{
+	left: 203px;
+	width: 836px;
+	position: absolute;
+	top: 87px;
+	height: 444px;
+}
+
+/* Brunel Centre of Bedford Location Title */
+#comp-j09gr15q{
+	left: 203px;
+	width: 340px;
+	position: absolute;
+	top: 32px;
+}
+
+#maptitle{
+	font-weight:bold;
+}
+
+/* Contact Form */
+#comp-j09gh5r0{
+	left: 28px;
+	width: 754px;
+	position: absolute;
+	top: 749px;
+	height: 180px;
+}
+
+/* Contact Form Title */
+#comp-j09gn03f{
+	left: 28px;
+	width: 304px;
+	position: absolute;
+	top: 703px;
+}
+
+#conformtitle{
+	font-weight:bold;
+}
+
+

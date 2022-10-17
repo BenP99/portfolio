@@ -1,0 +1,352 @@
+/* Background of Whole Page */
+#SITE_BACKGROUND{
+	position: absolute;
+	top: 0px;
+	height: 1200px;
+	width: 1903px;
+}
+
+#SITE_BACKGROUND_current_c1537_izpirjxp_bg{
+	top:0;
+	height:100%;
+	width:100%;
+	background-color:rgba(221, 221, 221, 1);
+	display:;
+	position:absolute;
+}
+
+#SITE_BACKGROUND_currentImage_c1537_izpirjxp_bg{
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#SITE_BACKGROUND_currentOverlay_c1537_izpirjxp_bg{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+/* Whole Page */
+#SITE_ROOT{
+	width:980px;
+	padding-bottom:40px;
+}
+
+#masterPage{
+	width: 980px;
+	position: static;
+	top: 0px;
+	height: 1100px;
+}
+
+/* Navigation Bar */
+#SITE_HEADER{
+	width: 980px;
+	position: fixed;
+	z-index: 50;
+	top: 0px;
+	height: 78px;
+	left: 0px;
+}
+
+#SITE_HEADERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#DrpDwnMn0-jgk{
+	left: 128px;
+	width: 852px;
+	position: absolute;
+	top: 25px;
+	height: 30px;
+}
+
+#DrpDwnMn0-jgkitemsContainer{
+	text-align:right;
+}
+
+/* Home Nav Button */
+#DrpDwnMn0-jgk0{
+	display: inherit;
+	color: grey;
+	width: 67px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk0bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk0label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Summary of Charity Nav Button */
+#DrpDwnMn0-jgk1{
+	display: inherit;
+	color: grey;
+	width: 149px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk1bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk1label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Trustees and Contact Info Nav Button */
+#DrpDwnMn0-jgk2{
+	display: inherit;
+	color: grey;
+	width: 183px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk2bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk2label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* News Nav Button */
+#DrpDwnMn0-jgk3{
+	display: inherit;
+	color: grey;
+	width: 64px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk3bg{
+	text-align:center;"
+}
+
+#DrpDwnMn0-jgk3label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* Application Form Nav Button */
+#DrpDwnMn0-jgk4{
+	display: inherit;
+	color: grey;
+	width: 132px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk4bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk4label{
+	text-align: center;
+	line-height: 30px;
+}
+
+/* FAQ Nav Button */
+#DrpDwnMn0-jgk5{
+	display: inherit;
+	color: grey;
+	width: 54px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+#DrpDwnMn0-jgk5bg{
+	text-align:center;
+}
+
+#DrpDwnMn0-jgk5label{
+	text-align: center;
+	line-height: 30px;
+}
+
+#DrpDwnMn0-jgkdropWrapper{
+	visibility: hidden;
+	left: auto;
+	right: 252px;
+	bottom: auto;
+}
+
+#DrpDwnMn0-jgkmoreContainer{
+	visibility: hidden;
+	left: auto;
+	right: 252px;
+}
+
+/* Footer */
+#SITE_FOOTER{
+	width: 980px;
+	position: absolute;
+	left: 0px;
+	height: 86px;
+	bottom: auto;
+	top: 1014px;
+}
+
+#SITE_FOOTERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+.s3{
+	left: -64px;
+	width: 568px;
+	position: absolute;
+	top: 38px;
+}
+
+#footer{
+	text-align:center;
+	color: #0F4C85;
+}
+
+/* Content for the Whole Page */
+#PAGES_CONTAINER{
+	width: 980px;
+	position: absolute;
+	top: 78px;
+	height: 935px;
+	left: 0px;
+}
+
+#PAGES_CONTAINERscreenWidthBackground{
+	width: 1903px;
+	left: -462px;
+}
+
+#SITE_PAGES{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 935px;
+}
+
+#c1537{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 3437px;
+	display: none;
+	visibility: hidden;
+}
+
+
+/* Current Activities Title */
+#atj7p{
+	left: 0px;
+	width: 980px;
+	position: absolute;
+	top: 0px;
+	height: 935px;
+}
+
+#comp-izzh84l7{
+	left: 81px;
+	width: 682px;
+	position: absolute;
+	visibility: inherit;
+	top: 44px;
+}
+
+#curspan{
+	font-weight:bold;
+}
+
+/* Information on the Activities/Events */
+#comp-izzh84lc{
+	left: -332px;
+	width: 1280px;
+	position: absolute;
+	top: 116px;
+	height: 366px;
+}
+
+#comp-izzh84le{
+	left: 646px;
+	width: 304px;
+	position: absolute;
+	top: 68px;
+}
+
+#comp-j0jc1eul{
+	left: 380px;
+	width: 304px;
+	position: absolute;
+	top: 68px;
+}
+
+#comp-j0jc28vd{
+	left: 369px;
+	width: 340px;
+	position: absolute;
+	top: 19px;
+}
+
+#infospan{
+	font-weight:bold;
+}
+
+#comp-j0jc2sa8{
+	left: -332px;
+	width: 1280px;
+	position: absolute;
+	top: 506px;
+	height: 363px;
+}
+
+#comp-j0jc2se9{
+	left: 646px;
+	width: 304px;
+	position: absolute;
+	top: 68px;
+}
+
+#comp-j0jc2sei{
+	left: 380px;
+	width: 304px;
+	position: absolute;
+	top: 68px;
+}
+
+#comp-j0jc2sep{
+	left: 369px;
+	width: 340px;
+	position: absolute;
+	top: 19px;
+}
+
+#infospan2{
+	font-weight:bold;
+}
+
