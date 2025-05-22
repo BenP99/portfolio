@@ -1,0 +1,87 @@
+<app-nav-frame />
+<div class="container">
+    <div class="content-banner">
+        <div class="title-container">
+            <h2 class="title audiowide-regular">BENJAMIN PEARCE</h2>
+            <p class="sub-title dm-serif-text-regular-italic">Experienced Web Developer</p>
+        </div>
+
+        <div class="banner-btn-container">
+            <div class="audiowide-regular arrow-btn" (click)="moveToFeatured()"><span>&#8964;</span></div>
+        </div>
+    </div>
+
+    <div class="dark-container" id="featured">
+        <h2 class="dm-serif-text-regular content-header">Featured Projects</h2>
+        <p class="dm-serif-text-regular content-text">Here are some of my projects! Click them for more information.</p>
+
+        <div class="project-boxes">
+            <app-project-box
+                title="Bride-les-Bains"
+                description="A website I developed and designed for a live client as a freelance developer."
+                imgSrc="images\brides-les-bains.PNG"
+                imgAlt="Bride-les-Bains Website Screenshot"
+                [tags]="oneTags"
+                (openModal)="openModalOne()"
+            />
+
+            <app-project-box
+                title="University Final Project"
+                description="This was a game project that I made for the Final Project assignment for my third and final year at the University of Hertfordshire, which was Nominated for BCS Innovation Award."
+                imgSrc="images\final-project.png"
+                imgAlt="University Final Project Screenshot"
+                [tags]="twoTags"
+                (openModal)="openModalTwo()"
+            />
+        </div>
+    </div>
+
+    <div class="dark-container" id="about">
+        <h2 class="dm-serif-text-regular content-header">About Me</h2>
+        <div class="about-content">
+            <img class="about-img" src="images\profile.jpg" alt="Photo of me"/>
+            <div class="about-text-container">
+                <p class="dm-serif-text-regular about-text">I first learnt how to code at a work experience placement during my time at secondary school, there I learnt website development. Since then i've learnt loads more programming languages, like: Java, Python, C#, and C++. When I found game engines it increased my love for development, and I quickly got suck into engines like Unity. Each game I've developer and developed myself while also making the assets in Photoshop or Blender depending on if the game was 2D or 3D. As someone who loves to develop and design games I have multiple folders on my PC which all contain various plans, test assets, and demos for each idea. As I've continued to grow as a programmer through; work, university, and personal projects. I've learnt about so much more about good coding practices, and also learnt more about what makes solutions not only usuable and accessible to the average user, but also what makes them fun and innovative in their own right.</p>
+                <p class="dm-serif-text-regular about-text">To contact me you can send me an email at ben.pearce25&#64;gmail.com or message me on LinkedIn.</p>
+                <h3 class="dm-serif-text-regular about-header">Skills:</h3>
+                <div class="tags-container">
+                    <div class="tag inter-regular"><p>HTML</p></div>
+                    <div class="tag inter-regular"><p>Angular JS</p></div>
+                    <div class="tag inter-regular"><p>Agile Methodology</p></div>
+                    <div class="tag inter-regular"><p>SCRUM</p></div>
+                    <div class="tag inter-regular"><p>SCSS/CSS</p></div>
+                    <div class="tag inter-regular"><p>C#</p></div>
+                    <div class="tag inter-regular"><p>SQL</p></div>
+                    <div class="tag inter-regular"><p>RESTful APIs</p></div>
+                    <div class="tag inter-regular"><p>Azure</p></div>
+                    <div class="tag inter-regular"><p>ASP.NET</p></div>
+                    <div class="tag inter-regular"><p>Github/Gitbash</p></div>
+                    <div class="tag inter-regular"><p>Visual Studio</p></div>
+                    <div class="tag inter-regular"><p>JavaScript/TypeScript</p></div>
+                    <div class="tag inter-regular"><p>Node.js</p></div>
+                </div>
+                <a class="cv-btn cmn-btn" href="\documents\Benjamin Pearce CV.pdf" download="Benjamin Pearce CV.pdf">Download my CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
+
+<app-project-modal *ngIf="openOne"
+    title="Bride-les-Bains"
+    description="This project was developed through an agile methodology which meant developing the website in parts and showing the client once those parts where completed. The site was made by me from scratch using a text editor called Notepad++ using the languages: HTML, CSS, and JavaScript. Once a cycle of development had passed and it was time to send the website to the client for feedback I used a hosting site called 000webhost to temporarily host the site for free with a generated DNS so that I could easily share the site with the client. This will be taken down once the website has been approved and is moved to their choice of hosting service with my help. This experience gave me more of a real view into how developing websites for a real client worked, while also giving me some good experience on freelance development. I also helped the client get their site set up and hosted on GoDaddy's hosting service with a domain they had brought."
+    imgSrc="images\brides-les-bains.PNG"
+    imgAlt="Bride-les-Bains Website Screenshot"
+    [tags]="oneTags"
+    (closeModal)="closeModalOne()"
+/>
+
+<app-project-modal *ngIf="openTwo"
+    title="University Final Project"
+    description="Nominated for BCS Innovation Award during my time at the University of Hertfordshire! This was a game project that I made for the Final Project assignment for my third and final year at the University of Hertfordshire. This was made from sratch using the Unity game engine and was coded in the language C#. This project was first planned and experimented with in the Project Planning Module in the first semester of the third year, then after the project was planned the actual artfact was built in the second semester. My project was to make a roguelike game that offered some solutions to three main problems that I found in existing roguelike games through project research. These problems where: Poor Difficulty Balancing, No Clear End Goals, and Missing Save Features."
+    imgSrc="images\final-project.png"
+    imgAlt="University Final Project Screenshot"
+    videoSrc="videos\University Final Project Video.mp4"
+    [tags]="twoTags"
+    (closeModal)="closeModalTwo()"
+/>

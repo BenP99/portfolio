@@ -1,0 +1,12 @@
+<div class="box-container" (click)="open()">
+    <h3 class="dm-serif-text-regular box-title">{{title}}</h3>
+    <div class="details">
+        <img class="box-img" [src]="imgSrc" [alt]="imgAlt"/>
+        <p class="dm-serif-text-regular box-desc">{{description}}</p>
+    </div>
+    <div class="tags-container">
+        <div class="tag" *ngFor="let tag of tags">
+            <p class="inter-regular">{{tag}}</p>
+        </div>
+    </div>
+</div>

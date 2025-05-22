@@ -1,0 +1,119 @@
+<app-nav-frame />
+<div class="container">
+    <div class="light-container">
+        <h2 class="audiowide-regular projects-header">PROJECTS</h2>
+
+        <div class="rows">
+            <app-project-row class="row"
+                title="Bride-les-Bains"
+                description="A website I developed and designed for a live client as a freelance developer."
+                (openModal)="openModalOne()"
+            />
+
+            <app-project-row class="row"
+                title="Brunel Centre Assignment"
+                description="A site developed for a college group assignment for a live client, the Brunel Centre."
+                (openModal)="openModalSeven()"
+            />
+
+            <app-project-row class="row"
+                title="University Final Project"
+                description="This was a game project that I made for the Final Project assignment for my third and final year at the University of Hertfordshire, which was Nominated for BCS Innovation Award."
+                (openModal)="openModalTwo()"
+            />
+
+            <app-project-row class="row"
+                title="Shape Builder"
+                description="A demo I developed that allows the player/user to create structures out of implemented shapes."
+                (openModal)="openModalThree()"
+            />
+
+            <app-project-row class="row"
+                title="Colour Demo"
+                description="This demo is a game where the player solves puzzles with blocks of colour."
+                (openModal)="openModalFour()"
+            />
+
+            <app-project-row class="row"
+                title="Counting App"
+                description="A counting app that was made as an educational game for my Mobile Computing assignment in University."
+                (openModal)="openModalFive()"
+            />
+
+            <app-project-row class="row"
+                title="Wave Game Demo"
+                description="This demo is one of the first games I made! It's a wave game I made without an engine."
+                (openModal)="openModalSix()"
+            />
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
+
+<app-project-modal *ngIf="openOne"
+    title="Bride-les-Bains"
+    description="This project was developed through an agile methodology which meant developing the website in parts and showing the client once those parts where completed. The site was made by me from scratch using a text editor called Notepad++ using the languages: HTML, CSS, and JavaScript. Once a cycle of development had passed and it was time to send the website to the client for feedback I used a hosting site called 000webhost to temporarily host the site for free with a generated DNS so that I could easily share the site with the client. This will be taken down once the website has been approved and is moved to their choice of hosting service with my help. This experience gave me more of a real view into how developing websites for a real client worked, while also giving me some good experience on freelance development. I also helped the client get their site set up and hosted on GoDaddy's hosting service with a domain they had brought."
+    imgSrc="images\brides-les-bains.PNG"
+    imgAlt="Bride-les-Bains Website Screenshot"
+    [tags]="oneTags"
+    (closeModal)="closeModalOne()"
+/>
+
+<app-project-modal *ngIf="openTwo"
+    title="University Final Project"
+    description="Nominated for BCS Innovation Award during my time at the University of Hertfordshire! This was a game project that I made for the Final Project assignment for my third and final year at the University of Hertfordshire. This was made from sratch using the Unity game engine and was coded in the language C#. This project was first planned and experimented with in the Project Planning Module in the first semester of the third year, then after the project was planned the actual artfact was built in the second semester. My project was to make a roguelike game that offered some solutions to three main problems that I found in existing roguelike games through project research. These problems where: Poor Difficulty Balancing, No Clear End Goals, and Missing Save Features."
+    imgSrc="images\final-project.png"
+    imgAlt="University Final Project Screenshot"
+    videoSrc="videos\University Final Project Video.mp4"
+    [tags]="twoTags"
+    (closeModal)="closeModalTwo()"
+/>
+
+<app-project-modal *ngIf="openThree"
+    title="Shape Builder"
+    description="This game/app allows users to build structures out of shapes. There are three shapes available: Wall, Floor, and Cyclinder. You can not only place these shapes, but vcan also move and edit the colour of them. You can rotate the walls as they are the only shapes that would benefit from having a rotate feature, and they can be rotated when being placed or being moved. You can move around with the camera, the camera controls are in the top left corner of the screen. Shapes will also snap into place when placing on another shape (however this feature can be a little buggy, snap works better when zoomed in), and finally there is a menu that you can open with the ESC key that will allow you to quit the application (this menu can be closed using the X button)."
+    imgSrc="images\shape-builder.png"
+    imgAlt="Shape Builder Screenshot"
+    videoSrc="videos\Shape Builder.mp4"
+    [tags]="threeTags"
+    (closeModal)="closeModalThree()"
+/>
+
+<app-project-modal *ngIf="openFour"
+    title="Colour Demo"
+    description="This game demo was a personal project which I designed and developed myself. This was made using the Unity game engine which uses the programming landscape C#, Photoshop was also used to create the assets used for this game. This game is a small demo of a puzzle game I made which gives the player puzzles that work with colour. The player controls a white block which pushes blocks of other colours around the level, and to complete the level the player needs to push these blocks unto pads of the same colour. There are objects in the level that can chnage the colour of a block or swap the colour of two pads. Some levels will also have doors which need to be opened by completing one or two pads. This game does also save the levels that you complete, as you have to unlock the levels by completing earlier levels. To learn the game there are tutorial levels that teach the player the core mechanics that can be seen in the levels themsleves."
+    imgSrc="images\colour-demo.png"
+    imgAlt="Colour Demo Screenshot"
+    videoSrc="videos\Colour Demo.mp4"
+    [tags]="fourTags"
+    (closeModal)="closeModalFour()"
+/>
+
+<app-project-modal *ngIf="openFive"
+    title="Counting App"
+    description="This counting app was made as an educational game for my Mobile Computing assignment, this module helped teach me not only how to develop apps but also how to design them. I used Android Studio to develop this as that was the IDE I was learning in the Mobile Comnputing module. This app contains two levels, the 1st level includes addition and the second level includes substraction, both levels have sound effects and vibration (which can be turned on or off in the settings), and also has dragable rockets so the user can drag rockets around the screen when counting to help solve each problem."
+    imgSrc="images\counting-app.PNG"
+    imgAlt="Counting App Screenshot"
+    videoSrc="videos\App Demo.mp4"
+    [tags]="fiveTags"
+    (closeModal)="closeModalFive()"
+/>
+
+<app-project-modal *ngIf="openSix"
+    title="Wave Game Demo"
+    description="This game was made from scratch in Java using Eclipse using a YouTube tutorial, this project allowed me to learn more about the back end/inner workings for games that you don't need to worry about within game engines as the engine handles that for you. This game was made by following a YouTube tutorial while commenting and making additions along the way to make sure the knowledge I had acquired stuck with me in some way. The game is a simple Wave Game with multiple waves of enemies and a boss at the end, but as there's only one level and not much else it's more akin to a demo of a game than a full game. This taught me about how game loops are developed in games and how they are used to create functionality and mechanics that the player can use while also developing in game time that passes regardless of player input."
+    imgSrc="images\gamebasics.png"
+    imgAlt="Wave Game Demo Screenshot"
+    videoSrc="videos\Wave Game Demo Video.mp4"
+    [tags]="sixTags"
+    (closeModal)="closeModalSix()"
+/>
+
+<app-project-modal *ngIf="openSeven"
+    title="Brunel Centre Assignment"
+    description="For an assignment when I was a student at Bedford College, we were split into groups to make a site for a real client, who where the Brunel Centre. My role in my group was the leader as I knew the most about website development in my group at the time, this meant I would make sure everyone was doing equal amounts of work while making sure the product came together in a way that worked for the project. The first thing our group did was design the site using a template editor on a site making service called Wix.com. then we took this design and made it from scratch using Notepad++ so we could have a lot more control over how the site looked and functioned. This site was made using the languages: HTML, CSS, JavaScript, and PHP. However this site no longer has active features for the PHP forms as this site did not get chosen for the client to use as their site, the PHP code still remains in the project folder. This was a good experience in team work within a project, and taking an active leader role in a project was still new to me at the time and this helped me gain experience in that too."
+    imgSrc="images\assingment3.png"
+    imgAlt="Brunel Centre Assignment Screenshot"
+    [tags]="sevenTags"
+    (closeModal)="closeModalSeven()"
+/>

@@ -1,0 +1,274 @@
+.content-banner {
+    background-color: #D9D9D9;
+    padding: 1rem;
+    height: 80rem;
+}
+
+.banner-btn-container {
+    justify-content: center;
+    display: flex;
+}
+
+.arrow-btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 48rem;
+    border: 6px solid #0D0D0D;
+    border-radius: 50%;
+    color: #0D0D0D;
+    width: 5rem;
+    height: 81px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.arrow-btn span {
+    bottom: 1rem;
+    position: relative;
+    font-size: 60px;
+}
+
+.arrow-btn:hover {
+    color: #595959;
+    cursor: pointer;
+    border-color: #595959;
+}
+
+.title-container {
+    position: relative;
+    top: 21rem;
+}
+
+.title {
+    font-size: 6rem;
+    text-shadow: 10px 6px #8C8C8C;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0.5rem;
+    color: #0D0D0D;
+}
+
+.sub-title {
+    justify-content: center;
+    margin-left: 45rem;
+    display: flex;
+    color: #0D0D0D;
+}
+
+.experience-header {
+    font-size: 2rem;
+    color: #D9D9D9;
+}
+
+.experience-text {
+    color: #D9D9D9;
+}
+
+.content-header {
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #D9D9D9;
+}
+
+.content-header-dark {
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #0D0D0D;
+}
+
+.content-text {
+    font-size: 20px;
+    color: #D9D9D9;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.about-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.about-text {
+    font-size: 17px;
+    color: #D9D9D9;
+}
+
+.about-header {
+    font-size: 2rem;
+    color: #D9D9D9;
+}
+
+.about-img {
+    width: 25rem;
+    border-radius: 8px;
+}
+
+.project-boxes {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.about-text-container {
+    display: block;
+}
+
+.tags-container {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: #8C8C8C;
+    color: #0D0D0D;
+    padding: 0.5rem;
+    width: 9rem;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.cv-btn {
+    margin-top: 2rem;
+    border: none;
+}
+
+@media screen and (max-width: 2139px) {
+    .cv-btn {
+        width: 9%;
+    }
+}
+
+@media screen and (max-width: 2130px) {
+    .project-boxes {
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 1897px) {
+    .project-boxes {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1767px) {
+    .cv-btn {
+        width: 11%;
+    }
+}
+
+@media screen and (max-width: 1373px) {
+    .about-img {
+        width: 24rem;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .cv-btn {
+        width: 13%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .cv-btn {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1342px) {
+    .project-boxes {
+        display: block;
+        gap: 0rem;
+    }
+}
+
+@media screen and (max-width: 1334px) {
+    .about-img {
+        width: 27rem;
+    }
+
+    .content-header {
+        font-size: 2rem;
+    }
+
+    .content-header-dark {
+        font-size: 2rem;
+    }
+
+    .content-text {
+        font-size: 16px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1278px) {
+    .cv-btn {
+        width: 17%;
+        font-size: 12px;
+    }
+
+    .tag {
+        padding: 0.3rem;
+        width: 6rem;
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width: 1099px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1013px) {
+    .cv-btn {
+        width: 20%;
+    }
+}
+
+
+@media screen and (max-width: 994px) {
+    .about-img {
+        display: none;
+    }
+
+    .cv-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 938px) {
+    .title {
+        font-size: 4rem;
+    }
+
+    .sub-title {
+        justify-content: center;
+        margin-left: 0rem;
+        display: flex;
+        color: #0D0D0D;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .title {
+        font-size: 3rem;
+    }
+}

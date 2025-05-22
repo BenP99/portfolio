@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+  margin: 0;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dark-container {
+  padding: 1.5rem;
+  background-color: #262626;
+}
+
+.light-container {
+  padding: 1.5rem;
+  background-color: #D9D9D9;
+}
+
+.cmn-btn {
+  text-decoration: none;
+  background: #D9D9D9;
+  color: #0D0D0D;
+  border-top: 5px solid #0D0D0D;
+  border-bottom: 5px solid #0D0D0D;
+  border-radius: 15px;
+  padding: 0.5rem;
+  width: 7%;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cmn-btn:hover {
+  background-color: #595959;
+  color: #D9D9D9;
+  cursor: pointer;
+}
