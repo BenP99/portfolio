@@ -22,15 +22,22 @@
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+    background: none;
 }
 
 .arrow-btn span {
-    bottom: 1rem;
-    position: relative;
     font-size: 60px;
+    display: inline-block;
+    line-height: 2rem;
 }
 
 .arrow-btn:hover {
+    color: #595959;
+    cursor: pointer;
+    border-color: #595959;
+}
+
+.arrow-btn:focus {
     color: #595959;
     cursor: pointer;
     border-color: #595959;
