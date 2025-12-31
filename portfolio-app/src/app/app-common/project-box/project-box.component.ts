@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
 
 @Component({
-  selector: 'app-project-box',
-  templateUrl: './project-box.component.html',
-  styleUrl: './project-box.component.scss'
+    selector: 'app-project-box',
+    templateUrl: './project-box.component.html',
+    styleUrl: './project-box.component.scss',
+    standalone: false
 })
 export class ProjectBoxComponent {
     @Input() public title: string = "";

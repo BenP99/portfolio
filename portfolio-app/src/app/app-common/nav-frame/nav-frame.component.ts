@@ -2,9 +2,10 @@ import { Component } from "@angular/core";
 import { Router } from "@angular/router";
 
 @Component({
-  selector: 'app-nav-frame',
-  templateUrl: './nav-frame.component.html',
-  styleUrl: './nav-frame.component.scss'
+    selector: 'app-nav-frame',
+    templateUrl: './nav-frame.component.html',
+    styleUrl: './nav-frame.component.scss',
+    standalone: false
 })
 export class NavFrameComponent {
   constructor(private router: Router) {}

@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, Output } from "@angular/core";
 
 @Component({
-  selector: 'app-project-modal',
-  templateUrl: './project-modal.component.html',
-  styleUrl: './project-modal.component.scss'
+    selector: 'app-project-modal',
+    templateUrl: './project-modal.component.html',
+    styleUrl: './project-modal.component.scss',
+    standalone: false
 })
 export class ProjectModalComponent {
     @Input() public title: string = "";
